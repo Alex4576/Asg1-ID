@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Silkscreen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>ID ASG1</title>
 </head>
@@ -18,28 +18,84 @@
         <div id="links">
             <a href="index.html"><img src="Images/Home Icon.png" style="height: 30px; padding-right: 10px;">Home</a>
             <a href="store.html"><img src="Images/Store Icon.png" style="height: 30px; padding-right: 10px;">Store</a>
+            <a href="about.html"><img src="Images/About Icon.png" style="height: 30px; padding-right: 10px;">About Us</a>
             <a href="contact.html"><img src="Images/Contact Icon.png" style="height: 30px; padding-right: 10px;">Contact Us</a>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a href="javascript:void(0);" class="menuIcon" onclick="navigate()">
                 <i class="fa fa-bars"></i>
             </a>
     </div>
     </header>
-    <div class="banner">
-        <div class="slider" style="--quantity: 10">
-            <div class="item" style="--position: 1"><img src="Images/album image 1.png" alt="album image 1"></div>
-            <div class="item" style="--position: 2"><img src="Images/album image 2.jpg" alt="album image 2"></div>
-            <div class="item" style="--position: 3"><img src="Images/album image 3.jpg" alt="album image 3"></div>
-            <div class="item" style="--position: 4"><img src="Images/album image 4.jpg" alt="album image 4"></div>
-            <div class="item" style="--position: 5"><img src="Images/album image 5.jpg" alt="album image 5"></div>
-            <div class="item" style="--position: 6"><img src="Images/album image 6.jpg" alt="album image 6"></div>
-            <div class="item" style="--position: 7"><img src="Images/album image 7.jpg" alt="album image 7"></div>
-            <div class="item" style="--position: 8"><img src="Images/album image 8.jpg" alt="album image 8"></div>
-            <div class="item" style="--position: 9"><img src="Images/album image 9.jpg" alt="album image 9"></div>
-            <div class="item" style="--position: 10"><img src="Images/album image 10.jpg" alt="album image 10"></div>
+    <div class="rotatingImages">
+        <div class="images" style="--quantity: 10">
+            <div class="image" style="--position: 1"><img src="Images/album image 1.png" alt="album image 1"></div>
+            <div class="image" style="--position: 2"><img src="Images/album image 2.jpg" alt="album image 2"></div>
+            <div class="image" style="--position: 3"><img src="Images/album image 3.jpg" alt="album image 3"></div>
+            <div class="image" style="--position: 4"><img src="Images/album image 4.jpg" alt="album image 4"></div>
+            <div class="image" style="--position: 5"><img src="Images/album image 5.jpg" alt="album image 5"></div>
+            <div class="image" style="--position: 6"><img src="Images/album image 6.jpg" alt="album image 6"></div>
+            <div class="image" style="--position: 7"><img src="Images/album image 7.jpg" alt="album image 7"></div>
+            <div class="image" style="--position: 8"><img src="Images/album image 8.jpg" alt="album image 8"></div>
+            <div class="image" style="--position: 9"><img src="Images/album image 9.jpg" alt="album image 9"></div>
+            <div class="image" style="--position: 10"><img src="Images/album image 10.jpg" alt="album image 10"></div>
+        </div>
+        <div class="content">
+            <img src="Images/logo 2.png" alt="logo 2">
+            <h1 style="font-size: 20px;">It would be nice if it was midnight all the time.</h1>
         </div>
     </div>
-    <h1>Home Page</h1>
+    
+    <div class="container1">
+        <div class="text1">
+            <h1>WHAT IS ZUTOMAYO</h1>
+            <p>ZUTOMAYO is a faceless Japanese band, formed in 2018.<br>Unlike most groups, ZUTOMAYO does not have a permanent lineup of members. 
+                <br>The notable exception is their enigmatic singer and songerwriter, ACAne, who remains central to the group's discography.</p>
+        </div>
+            <img src="Images/zutomayo no bg.png" alt="profile">
+    </div>
+    
+
+    <div class="container2">
+        <h1>ZUTOMAYO UPCOMING TOURS 2026</h1>
+        <div class="img-container">
+            <div class="flex-item">
+                <div class="flex-img">
+                    <img src="Images/zutomayo tour poster.png" alt="" style="width: 200px; height: 200px;">
+                </div>
+                <div class="flex-info">
+                    <h4>Japan Budokan</h4>
+                    <p>Date: 28th Feburary Saturday & 1st March Sunday</p>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="flex-img">
+                    <img src="Images/zutomayo tour poster.png" alt="" style="width: 200px; height: 200px;">
+                </div>
+                <div class="flex-info">
+                    <h4>Seoul / KOREA UNIVERSITY, TIGER DOME</h4>
+                    <p>Date: 14th March, Saturday</p>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="flex-img">
+                    <img src="Images/zutomayo tour poster.png" alt="" style="width: 200px; height: 200px;">
+                </div>
+                <div class="flex-info">
+                    <h4>Shanghai / TBA</h4>
+                    <p>Date: 28th March, Saturday</p>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="flex-img">
+                    <img src="Images/zutomayo tour poster.png" alt="" style="width: 200px; height: 200px;">
+                </div>
+                <div class="flex-info">
+                    <h4>Yokohama Arena</h4>
+                    <p>Date: 4th April, Saturday & 5th April Sunday</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="footer">
         <a href="https://www.instagram.com/zutomayo_staff/"><img src="Images/footer icon 1.png" alt="footer icon 1"></a>
         <a href="https://www.instagram.com/zutomayo_mart/?hl=ja"><img src="Images/footer icon 2.png" alt="footer icon 2"></a>

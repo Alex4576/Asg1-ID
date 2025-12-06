@@ -1,39 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Silkscreen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <title>ID ASG1</title>
 </head>
 <body>
     <header>
-    <div class="nav">
+          <div class="nav">
         <a href="index.html" class="navbar"><img src="Images/logo.png" style="height:17px;" class="logo"></a>
         <div id="links">
             <a href="index.html"><img src="Images/Home Icon.png" style="height: 30px; padding-right: 10px;">Home</a>
             <a href="store.html"><img src="Images/Store Icon.png" style="height: 30px; padding-right: 10px;">Store</a>
+            <a href="about.html"><img src="Images/About Icon.png" style="height: 30px; padding-right: 10px;">About Us</a>
             <a href="contact.html"><img src="Images/Contact Icon.png" style="height: 30px; padding-right: 10px;">Contact Us</a>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a href="javascript:void(0);" class="menuIcon" onclick="navigate()">
                 <i class="fa fa-bars"></i>
             </a>
-    </div>
+        </div>
     </header>
-    <div class="slideshow-container">
-        <div class="mySlides fade">
-            <img src="Images/Slideshow Image 1.jpg" style="width:100%" alt="slideshow img 1">
+    <div class="movingTexts">
+        <div class="cards">
+            <div class="card">UPCOMING</div>
+            <div class="card">SALE!</div>
+            <div class="card">1.1.2026</div>
+            <div class="card">UPCOMING</div>
+            <div class="card">SALE!</div>
+            <div class="card">1.1.2026</div>
         </div>
-        <div class="mySlides fade">
-            <img src="Images/Slideshow Image 2.png" style="width:100%" alt="slideshow img 2">
+        <div aria-hidden class="cards">
+            <div class="card">UPCOMING</div>
+            <div class="card">SALE!</div>
+            <div class="card">1.1.2026</div>
+            <div class="card">UPCOMING</div>
+            <div class="card">SALE!</div>
+            <div class="card">1.1.2026</div>
         </div>
-        <div class="mySlides fade">
-            <img src="Images/Slideshow Image 3.png" style="width:100%" alt="slideshow img 3">
+        <div aria-hidden class="cards">
+            <div class="card">UPCOMING</div>
+            <div class="card">SALE!</div>
+            <div class="card">1.1.2026</div>
+            <div class="card">UPCOMING</div>
+            <div class="card">SALE!</div>
+            <div class="card">1.1.2026</div>
+        </div>
+        <div aria-hidden class="cards">
+            <div class="card">UPCOMING</div>
+            <div class="card">SALE!</div>
+            <div class="card">1.1.2026</div>
+            <div class="card">UPCOMING</div>
+            <div class="card">SALE!</div>
+            <div class="card">1.1.2026</div>
+        </div>
+    </div>
+        <div class="carousel">
+        <div class="slides fade">
+            <img src="Images/Slideshow Image 1.png" style="width:100%" alt="carousel img 1">
+        </div>
+        <div class="slides fade">
+            <img src="Images/Slideshow Image 2.png" style="width:100%" alt="carousel img 2">
+        </div>
+        <div class="slides fade">
+            <img src="Images/Slideshow Image 3.png" style="width:100%" alt="carousel img 3">
+        </div>
+        <div class="content">
+            <img src="Images/logo 2.png" alt="logo 2">
+            <h1>SALE COMING SOON 1.1.2026</h1>
+        </div>
+    </div>
+      <div class="movingTexts">
+        <div class="cards">
+            <div class="card">UPCOMING</div>
+            <div class="card">SALE!</div>
+            <div class="card">1.1.2026</div>
+            <div class="card">UPCOMING</div>
+            <div class="card">SALE!</div>
+            <div class="card">1.1.2026</div>
+        </div>
+        <div aria-hidden class="cards">
+            <div class="card">UPCOMING</div>
+            <div class="card">SALE!</div>
+            <div class="card">1.1.2026</div>
+            <div class="card">UPCOMING</div>
+            <div class="card">SALE!</div>
+            <div class="card">1.1.2026</div>
+        </div>
+        <div aria-hidden class="cards">
+            <div class="card">UPCOMING</div>
+            <div class="card">SALE!</div>
+            <div class="card">1.1.2026</div>
+            <div class="card">UPCOMING</div>
+            <div class="card">SALE!</div>
+            <div class="card">1.1.2026</div>
+        </div>
+        <div aria-hidden class="cards">
+            <div class="card">UPCOMING</div>
+            <div class="card">SALE!</div>
+            <div class="card">1.1.2026</div>
+            <div class="card">UPCOMING</div>
+            <div class="card">SALE!</div>
+            <div class="card">1.1.2026</div>
         </div>
     </div>
     <br>
@@ -42,8 +116,151 @@
         <span class="dot"></span>
         <span class="dot"></span>
     </div>
-    <h1>Store Page</h1>
-<div class="footer">
+
+    <div class="cart">
+        <h2 class="cartTitle">Cart</h2>
+        <div class="cartContent">
+        </div> 
+        <div class="total">
+            <div class="totalTitle">Total</div>
+            <div class="totalPrice">$0</div>
+        </div>
+        <button class="buyBtn">Purchase</button>
+        <i class="ri-close-line" id="cartClose"></i>
+    </div>
+
+    <section class="productGallery">
+        <div id="cartIcon">
+            <h1>ZUTOMAYO Mart</h1>
+            <div class="iconGroup">
+            <i class="ri-shopping-bag-line"></i>
+            <span class="itemCount"></span>
+            </div>
+        </div>
+        <div class="productContent">
+            <div class="productBox">
+                <div class="imgBox">
+                    <img src="Images/keychain 1.png">
+                </div>
+                <h2 class="productTitle">Petanko Uniguri Baby Keychain</h2>
+                <div class="priceAndCart">
+                    <span class="price">$15</span>
+                    <i class="ri-shopping-bag-line addCart"></i>
+                </div>
+            </div>
+            <div class="productBox">
+                <div class="imgBox">
+                    <img src="Images/keychain 2.png">
+                </div>
+                <h2 class="productTitle">Cosmic Uniguri Keychain</h2>
+                <div class="priceAndCart">
+                    <span class="price">$12.50</span>
+                    <i class="ri-shopping-bag-line addCart"></i>
+                </div>
+            </div>
+            <div class="productBox">
+                <div class="imgBox">
+                    <img src="Images/keychain 3.png">
+                </div>
+                <h2 class="productTitle">SHOGA_ST UFO Keychain</h2>
+                <div class="priceAndCart">
+                    <span class="price">$15</span>
+                    <i class="ri-shopping-bag-line addCart"></i>
+                </div>
+            </div>
+            <div class="productBox">
+                <div class="imgBox">
+                    <img src="Images/keychain 4.png">
+                </div>
+                <h2 class="productTitle">UNIGURI UFO Projector Keychain</h2>
+                <div class="priceAndCart">
+                    <span class="price">$15</span>
+                    <i class="ri-shopping-bag-line addCart"></i>
+                </div>
+            </div>
+             <div class="productBox">
+                <div class="imgBox">
+                    <img src="Images/COSMIC Gacha.png">
+                </div>
+                <h2 class="productTitle">COSMIC Trinkets Gacha Packet</h2>
+                <div class="priceAndCart">
+                    <span class="price">$4.20</span>
+                    <i class="ri-shopping-bag-line addCart"></i>
+                </div>
+            </div>
+            <div class="productBox">
+                <div class="imgBox">
+                    <img src="Images/COSMIC Sticker Set & GOTOCHI Reflector Key.png">
+                </div>
+                <h2 class="productTitle">COSMIC Sticker Set & GOTOCHI Key</h2>
+                <div class="priceAndCart">
+                    <span class="price">$16.50</span>
+                    <i class="ri-shopping-bag-line addCart"></i>
+                </div>
+            </div>
+            <div class="productBox">
+                <div class="imgBox">
+                    <img src="Images/ZTMY Display Shoulder Bag.png">
+                </div>
+                <h2 class="productTitle">ZTMY Display Shoulder Bag</h2>
+                <div class="priceAndCart">
+                    <span class="price">$79.20</span>
+                    <i class="ri-shopping-bag-line addCart"></i>
+                </div>
+            </div>
+            <div class="productBox">
+                <div class="imgBox">
+                    <img src="Images/Saturn Alarm Clock.png">
+                </div>
+                <h2 class="productTitle">Cosmic Saturn Alarm Clock</h2>
+                <div class="priceAndCart">
+                    <span class="price">$54.20</span>
+                    <i class="ri-shopping-bag-line addCart"></i>
+                </div>
+            </div>
+            <div class="productBox">
+                <div class="imgBox">
+                    <img src="Images/Reddish Brown Tee.png">
+                </div>
+                <h2 class="productTitle">Reddish Scientist Tee</h2>
+                <div class="priceAndCart">
+                    <span class="price">$45.50</span>
+                    <i class="ri-shopping-bag-line addCart"></i>
+                </div>
+            </div>
+            <div class="productBox">
+                <div class="imgBox">
+                    <img src="Images/White Tee.png">
+                </div>
+                <h2 class="productTitle">White Scientist Tee</h2>
+                <div class="priceAndCart">
+                    <span class="price">$45.50</span>
+                    <i class="ri-shopping-bag-line addCart"></i>
+                </div>
+            </div>
+            <div class="productBox">
+                <div class="imgBox">
+                    <img src="Images/Navy Tee.png">
+                </div>
+                <h2 class="productTitle">Navy Binetsuma Tee</h2>
+                <div class="priceAndCart">
+                    <span class="price">$45.50</span>
+                    <i class="ri-shopping-bag-line addCart"></i>
+                </div>
+            </div>
+            <div class="productBox">
+                <div class="imgBox">
+                    <img src="Images/Purple Tee.png">
+                </div>
+                <h2 class="productTitle">Purple Binetsuma Tee</h2>
+                <div class="priceAndCart">
+                    <span class="price">$45.50</span>
+                    <i class="ri-shopping-bag-line addCart"></i>
+                </div>
+            </div>
+        </div>
+        </section>
+    <div class="footer">
         <a href="https://www.instagram.com/zutomayo_staff/"><img src="Images/footer icon 1.png" alt="footer icon 1"></a>
         <a href="https://www.instagram.com/zutomayo_mart/?hl=ja"><img src="Images/footer icon 2.png" alt="footer icon 2"></a>
         <a href="https://x.com/zutomayo_staff"><img src="Images/footer icon 4.png" alt="footer icon 3"></a>

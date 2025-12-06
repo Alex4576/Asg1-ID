@@ -16,19 +16,21 @@ github pages: https://alex4576.github.io/Asg1-ID/
 The features that will be included in our revamped website.
 
 <h2>Existing Features</h2>
-- Responsive Hamburger Menu: Allow users to navigate smoothly throughout the website, users can also view the website in either mobile or desktop without the content being cut off or distorted.<br>
-- Automatic Slideshow Banner & Image Slider: Making the website look more appealing.<br>
-- Footer: Allow users to checkout ZUTOMAYO's social media platforms.
+- Navigation Bar: Allow users to navigate smoothly throughout the website, users can also view the website in either mobile or desktop without the content being cut off or distorted.<br>
+- Automatic Image Carousel & Rotating Images: Makes the website look more appealing.<br>
+- Footer: Allow users to checkout ZUTOMAYO's social media platforms.<br>
+- Product Gallery: Allow users to buy products or store products in their cart afterwards user can purchase their items placed in the cart through clicking on the purchase button.<br>
+- Feedback Form: Allow users to send message to the band.
   
 <h2>Features Left to Implement</h2>
-- Product Details<br>
-- Feedback Form
+- Product Details
 
 <h1>Technologies Used</h1>
-- HTML, CSS, Javascript, The website uses javascript to make the slideshow banner
+- HTML, CSS, Javascript, The website uses javascript to make the automatic carousel and rotating images effect.
 
 <h1>Testing</h1>
-- The Automatic Slideshow Banner works and looks fine when the screen is resized.
+- The Automatic carousel works and looks fine when the screen is resized.<br>
+- 
 
 <h1>Credits</h1>
 <h2>Content</h2>
